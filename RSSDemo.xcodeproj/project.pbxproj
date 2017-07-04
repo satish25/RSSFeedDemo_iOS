@@ -15,6 +15,7 @@
 		1F3BD7CB1EF44660003C6D28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F3BD7C91EF44660003C6D28 /* LaunchScreen.storyboard */; };
 		1F3BD7D61EF44660003C6D28 /* RSSDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3BD7D51EF44660003C6D28 /* RSSDemoTests.swift */; };
 		1F3BD7E11EF44660003C6D28 /* RSSDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3BD7E01EF44660003C6D28 /* RSSDemoUITests.swift */; };
+		1F8513051F0BE56800A6BD96 /* TopSongs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8513041F0BE56800A6BD96 /* TopSongs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1F3BD7DC1EF44660003C6D28 /* RSSDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSSDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F3BD7E01EF44660003C6D28 /* RSSDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSDemoUITests.swift; sourceTree = "<group>"; };
 		1F3BD7E21EF44660003C6D28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F8513041F0BE56800A6BD96 /* TopSongs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopSongs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				1F3BD7C91EF44660003C6D28 /* LaunchScreen.storyboard */,
 				1F3BD7CC1EF44660003C6D28 /* Info.plist */,
 				1F3BD7C41EF44660003C6D28 /* RSSDemo.xcdatamodeld */,
+				1F8513041F0BE56800A6BD96 /* TopSongs.swift */,
 			);
 			path = RSSDemo;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			files = (
 				1F3BD7C61EF44660003C6D28 /* RSSDemo.xcdatamodeld in Sources */,
 				1F3BD7C01EF44660003C6D28 /* ViewController.swift in Sources */,
+				1F8513051F0BE56800A6BD96 /* TopSongs.swift in Sources */,
 				1F3BD7BE1EF44660003C6D28 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,6 +522,7 @@
 				1F3BD7E71EF44660003C6D28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F3BD7E81EF44660003C6D28 /* Build configuration list for PBXNativeTarget "RSSDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +531,7 @@
 				1F3BD7EA1EF44660003C6D28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F3BD7EB1EF44660003C6D28 /* Build configuration list for PBXNativeTarget "RSSDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +540,7 @@
 				1F3BD7ED1EF44660003C6D28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
